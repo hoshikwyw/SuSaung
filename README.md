@@ -1,8 +1,34 @@
-# React + Vite
+# SuSaung - Your Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+SuSaung is a personal finance tracking web application that helps you keep track of your income and expenses. It provides a clear picture of your financial health by showing how much you earn and where you spend your money on a monthly basis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Income Tracking**: Keep track of your monthly income.
+- **Expense Tracking**: Monitor where your money is going each month.
+- **Real-time Updates**: All data is updated in real-time using Firebase.
+- **Monthly Reports**: Get detailed reports of your income and expenses for each month.
+
+## Technologies Used
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **Material UI**: A popular React UI framework for faster and easier web development.
+- **Firebase Realtime Database**: A cloud-hosted NoSQL database for storing and sync data in realtime.
+
+## Getting Started
+
+1. Clone the repository to your local machine.
+2. Install the dependencies using `npm install`.
+3. Start the development server using `npm start`.
+4. Visit `http://localhost:3000` in your web browser to see the application in action.
+
+## Contributing
+
+We welcome contributions! Please see our Contributing Guidelines for more details.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
