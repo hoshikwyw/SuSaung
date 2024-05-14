@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBtn from './components/NavBtn'
+import NavBtn from '../components/NavBtn'
 
 const Navbar = () => {
   return (
@@ -10,9 +10,9 @@ const Navbar = () => {
       </div>
       <div className=' flex flex-col gap-3 py-3'>
         <NavBtn icon="hehe" text="home" />
-        <NavBtn icon="hehe" text="home" />
-        <NavBtn icon="hehe" text="home" />
-        <NavBtn icon="hehe" text="home" />
+        <NavBtn icon="hehe" text="about" />
+        <NavBtn icon="hehe" text="gallery" />
+        <NavBtn icon="hehe" text="lists" />
       </div>
     </div>
   )
