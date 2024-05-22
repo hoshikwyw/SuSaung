@@ -4,11 +4,11 @@ import Navbar from './common/pages/Navbar'
 const App = () => {
   return (
     <div className=' min-w-screen min-h-screen flex justify-center items-center mainBg'>
-      <div className=' w-[99%] h-[99%] flex bg-[#ffffff3d]'>
-        <div className=" w-[15%] h-full">
+      <div className=' w-[99%] h-[99%] flex justify-evenly subBg rounded-lg'>
+        <div className=" w-[15%] h-[680px] p-5 rounded-lg">
           <Navbar />
         </div>
-        <div className=' w-[80%] bg-main-bg bg-cover border'>
+        <div className=' w-[80%] border p-5'>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt culpa, officia, at veniam fuga itaque porro iste non soluta harum atque tenetur hic! Similique, sint maiores officia velit sed quisquam!</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis voluptatum unde officiis! Eaque dignissimos, odit eligendi aspernatur beatae enim necessitatibus. Similique expedita minima molestias? Eos aperiam recusandae ipsa? Repellat, explicabo.
             Maxime voluptates sint explicabo, hic consequatur rerum mollitia, at repudiandae repellat velit dignissimos pariatur eligendi ipsam iste quia est a veritatis odit voluptate eius porro aspernatur ut. Veniam, nulla ad!
