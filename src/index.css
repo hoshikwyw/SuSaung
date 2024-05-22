@@ -12,9 +12,11 @@
     background-image: url("/public/mainBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(80%);
   }
   .subBg {
-    margin: 10px;
+    height: calc(100vh - 14px);
+    background-color: #ffffff87;
     backdrop-filter: blur(6px);
   }
 }
