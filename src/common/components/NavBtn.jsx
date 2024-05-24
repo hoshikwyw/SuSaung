@@ -3,9 +3,9 @@ import navBtnclick from '../CommonFn'
 
 const NavBtn = ({ icon, text }) => {
     return (
-        <div className=' flex gap-3 items-center px-10'>
+        <div className=' flex gap-3 items-center'>
             <img src={icon} alt="" />
-            <button className="text" onClick={() => { navBtnclick(text) }}>{text}</button>
+            <button className=" text" onClick={() => { navBtnclick(text) }}>{text}</button>
         </div>
     )
 }

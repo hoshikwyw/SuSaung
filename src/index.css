@@ -12,15 +12,21 @@
     background-image: url("/public/mainBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(80%);
+    /* filter: brightness(80%); */
   }
   .subBg {
-    height: calc(100vh - 15px);
+    background: rgba( 182, 182, 182, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .navBg {
     background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 5.5px );
--webkit-backdrop-filter: blur( 5.5px );
+backdrop-filter: blur( 19.5px );
+-webkit-backdrop-filter: blur( 19.5px );
 border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 }
