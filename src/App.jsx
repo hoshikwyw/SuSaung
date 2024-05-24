@@ -4,7 +4,7 @@ import Navbar from './common/pages/Navbar'
 const App = () => {
   return (
     <div className=' min-w-screen min-h-screen flex justify-center items-center mainBg'>
-      <div className=' w-[99%] flex justify-evenly subBg rounded-lg'>
+      <div className=' w-[98%] flex justify-evenly subBg rounded-lg'>
         <div className=" w-[15%] p-5 rounded-lg">
           <Navbar />
         </div>
