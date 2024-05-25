@@ -3,7 +3,7 @@ import NavBtn from '../components/NavBtn'
 
 const Navbar = () => {
   return (
-    <div className=' py-3 subBg flex flex-col w-full h-[calc(100vh-35px)] justify-start items-start px-3'>
+    <div className=' py-3 subBg flex flex-col w-full justify-start items-start px-3 h-full'>
       <div className=' flex justify-center items-center gap-2 border-b border-gray-500 pb-3 w-full'>
         <img src="/logo.png" alt="" className=' w-14 h-14' />
         <h1 className=" logoText">SuSaung</h1>
