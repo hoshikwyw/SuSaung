@@ -9,7 +9,7 @@
     font-weight: 700;
   }
   .mainBg {
-    background-image: url("/public/mainBg.jpg");
+    background-image: url("/mainBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* filter: brightness(80%); */
