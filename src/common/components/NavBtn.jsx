@@ -1,11 +1,12 @@
 import React from 'react'
 import navBtnclick from '../CommonFn'
+import { NavLink } from 'react-router-dom'
 
-const NavBtn = ({ icon, text }) => {
+const NavBtn = ({ icon, text, to }) => {
     return (
         <div className=' flex gap-3 items-center'>
             <img src={icon} alt="" />
-            <button className=" text" onClick={() => { navBtnclick(text) }}>{text}</button>
+            <NavLink to={to} className=" text">{text}</NavLink>
         </div>
     )
 }

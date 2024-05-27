@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './common/pages/Navbar'
-import Home from './common/pages/Home'
+import Paths from './paths/Paths'
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
           <Navbar />
         </div>
         <div className=' w-[85%] p-2 rounded-xl'>
-          <Home />
+          <Paths />
         </div>
       </div>
     </div>
