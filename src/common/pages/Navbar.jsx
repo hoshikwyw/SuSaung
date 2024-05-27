@@ -9,10 +9,11 @@ const Navbar = () => {
         <h1 className=" logoText">SuSaung</h1>
       </div>
       <div className=' flex flex-col gap-3 p-5'>
-        <NavBtn icon="/icons/home.svg" text="home" />
-        <NavBtn icon="/icons/home.svg" text="about" />
-        <NavBtn icon="/icons/home.svg" text="gallery" />
-        <NavBtn icon="/icons/home.svg" text="lists" />
+        <NavBtn icon="/icons/home.svg" text="home" to="/" />
+        <NavBtn icon="/icons/home.svg" text="about" to="/about" />
+        <NavBtn icon="/icons/home.svg" text="gallery" to="/gallery" />
+        <NavBtn icon="/icons/home.svg" text="lists" to="/lists" />
+        <NavBtn icon="/icons/home.svg" text="Upload Img" to="/uploadImg" />
       </div>
     </div>
   )
